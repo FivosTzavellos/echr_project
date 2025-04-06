@@ -1,4 +1,44 @@
-## No removal of frequent words (coherence 0.5508, diversity 0.9375):
+#### Table 1: No preprocessing: stopwords, named entities, and frequent words are retained (no removal applied). The topic quality is 0.4517:
+
+| Topic_0     | Topic_1         | Topic_2     | Topic_3       | Topic_4    | Topic_5       | Topic_6 | Topic_7 | Topic_8 | Topic_9 | Topic_10 | Topic_11 | Topic_12 | Topic_13 |
+|-------------|------------------|-------------|----------------|------------|----------------|---------|---------|---------|---------|----------|-----------|----------|-----------|
+| pte         | athlete          | she         | newspaper      | cia        | tax defaulter  | the     | gypsy   | ni      | russian | bond     | the       | andorran | the       |
+| styazhkov   | testing pool     | her         | statement      | detention  | dot            | of      | ebi     | zoran   | russia  | urozhay  | of        | testatrix| be        |
+| yef         | doping           | child       | medium         | detainee   | tax arrear     | be      | site    | nmppo   | religious| commodity bond | be  | canonical marriage | of |
+| sgt         | afld             | asylum      | publish        | poland     | interactive    | to      | belt    | nenad   | people  | fz       | and       | pla      | to        |
+| senior lt   | testing          | centre      | pkk            | flight     | click          | in      | lor     | simonovi| text    | rsfsr    | to        | pujol    | and       |
+| pudendal nerve | dope          | refugee     | publication    | airport    | evader         | and     | land    | aleksandar | genocide | buyout | have     | catalan  | in        |
+| entrenchment| slot             | russian     | journalist     | secret     | adzk           | that    | tebi    | minu     | religion| grain    | on        | francescxavi | on       |
+| crawl along | antidope         | first       | expression     | interrogation | map          | have    | netherlands | belilovi| ds      | consumer | that      | testatrixs | that     |
+| squadron    | whereabouts requirement | woman | diyarbakr  | romania    | budapest       | for     | aruba   | kosti    | extremist| internal debt | in     | codicil  | have      |
+| senior lieutenant | wadc      | alien       | defamation     | us         | online         | on      | emetic  | sran     | jewish  | malysh   | he        | serra    | prison    |
+| borzoy      | sporting         | moscow      | gven           | site       | excess         | or      | gbp     | lomigora| hate    | agricultural produce | his | puncernau| he        |
+| chechnyaingushetia | sport     | parent      | honour         | polish     | taxpayer       | as      | green   | vukain   | group   | amur     | by        | carolina | for       |
+| chlc        | whereabouts      | application | disseminate    | aircraft   | red            | by      | caravan | milo     | church  | agriculture | not    | areny    | his       |
+| rf          | wada             | family      | damage         | report     | large amount   | court   | accommodation | bajram | moscow  | finance  | at        | oller    | with      |
+| pressup     | whereabout       | immigration | region         | country    | forint huf     | not     | pgd     | badar    | armenian| nominal value | with | roser    | by        |
+| ryazan      | antidoping       | leave       | insult         | intelligence | authoritys    | it      | carson  | jovanovi | alshabaab| rur     | they      | immaculada | detention |
+| bartholin   | world antidope   | minor       | mass           | facility   | exceed huf     | with    | extra security | jonovi | extremist activity | total nominal | court | liberis | cell     |
+| administrativo| antidope organisation | return | nonpecuniary | united     | kiss           | which   | planning permission | ivljanin | ethnic | agricultural | as | decesserit | court    |
+| lisboa      | unannounced      | have        | gendarmerie    | transfer   |                | article | requisition | ivica | aim    | redemption | criminal | intestate | from     |
+| incontinent | outofcompetition | age         | reputation     | states     |                | an      | uprating | jurii   | call    | sell     | prosecutor | antoni | no        |
+| observatory | handball         | interview   | defamatory     | international|              | from    | local   | anti     | newspaper | coefficient | an   | filiation | medical   |
+| supremo     | antidope test    | mother      | impugn         | afghanistan|                | their   | planning| visor    | regulator| sergey  | police    | empara   | prisoner  |
+| armed conflict | sportsman     | expulsion   | pay            | black      |                | state   | curaao  | strugar  | author  | holder   | for       | settlor  | as        |
+| lyubertsy   | uptodate information | stay     | author         | investigation |             | this    | housing | dane     | federation| consumer price | from | filial   | not       |
+| prostatectomy | rugby          | turkish     | press          | redact     |                | person  | caravan site | gaji   | homosexual | consumer good | mr  | sser     | or        |
+| suicidal thought | onehour     | border      | editor         | hvd        |                | at      | antille | habimi   | extremism | retail price | officer | remainderman | an     |
+| predispose  | des              | removal     | eli            | guantnamo  |                | they    | lorss   | binaj    | caution | carei    | it        | diocletian | condition|
+| bataysk     | toplevel         | orphanage   | company        | abu        |                | law     | illegitimate | gluica | reader | production | police  | forosament| at        |
+|             | uci              | federation  | defendant      |            |                | right   | area    | oki      | chechen | nikolay  | police officer | codi | which    |
+|             | epo              |             |                |            |                | no      | keenan  | zdravkovi| army     | harvest  | investigation | maximianus | provide |
+
+
+
+
+
+
+#### Table 2: Stopword and named entities removed, but there was no removal of words that appear in more than a percentage of documents. The topic quality is 0.5163:
 
 | Topic_0     | Topic_1           | Topic_2       | Topic_3       | Topic_4     | Topic_5      | Topic_6        | Topic_7     |
 |-------------|-------------------|---------------|---------------|-------------|--------------|----------------|-------------|
@@ -34,7 +74,7 @@
 | protection  | ethical           | regulator     | doctor        | area        | hearing      | stopover       | entre       |
 
 
-## Removal of words that appear in more than 10% of documents (coherence 0.544, diversity 0.9769):
+#### Table 3: Stopwords and named entities removed. Additionally, words appearing in more than 10% of documents were removed. Topic quality is 0.5314:
 
 | Topic_0                      | Topic_1                    | Topic_2                | Topic_3                   | Topic_4                  | Topic_5                   | Topic_6                   | Topic_7                    | Topic_8                    | Topic_9                      | Topic_10                      | Topic_11                       | Topic_12                      |
 |------------------------------|----------------------------|------------------------|---------------------------|--------------------------|---------------------------|---------------------------|----------------------------|----------------------------|------------------------------|-------------------------------|--------------------------------|--------------------------------|
@@ -70,7 +110,7 @@
 | violence against women       |                            | armed                  | internet                  |                          |                           |                           | transaction                | senator                    |                              |                               | advice                         | satisfied                      |
 
 
-## Removal of frequent words that appear in more than 20% of documents (coherence 0.6009, diversity 0.9538):
+#### Table 4: Stopwords and named entities removed. Additionally, words appearing in more than 20% of documents were removed. (topic quality 0.5731):
 
 | Topic_0             | Topic_1                 | Topic_2             | Topic_3           | Topic_4            | Topic_5              | Topic_6              | Topic_7               | Topic_8             | Topic_9             | Topic_10                 | Topic_11                 | Topic_12            |
 |---------------------|-------------------------|---------------------|-------------------|--------------------|----------------------|----------------------|-----------------------|---------------------|---------------------|--------------------------|--------------------------|---------------------|
@@ -106,7 +146,7 @@
 | human               | position vulnerability  | placement           | population        | publication        | away                 | heating              | obstruct              | reader              | legislative         | arrival                  | seeker                   | knowledge           |
 
 
-## Removal of words that appear in more than 30% of documents (coherence 0.6435, diversity 0.95):
+#### Table 5: Stopwords and named entities removed. Additionally, words appearing in more than 30% of documents were removed. Topic quality is 0.6113:
 
 | Topic_0     | Topic_1        | Topic_2        | Topic_3         | Topic_4       | Topic_5         | Topic_6      | Topic_7        | Topic_8      | Topic_9    |
 |-------------|----------------|----------------|------------------|----------------|------------------|--------------|----------------|--------------|------------|
@@ -142,7 +182,7 @@
 | secretary   | fine           | parking        | regular          | clean          | girl             | property     | dignity        | unidentified | stand      |
 
 
-## Removal of words that appear in more than 40% of documents (coherence 0.5694, diversity 0.907):
+#### Table 6: Stopwords and named entities removed. Additionally, words appearing in more than 40% of documents were removed. Topic quality is 0.5164:
 
 | Topic_0  | Topic_1   | Topic_2   | Topic_3   | Topic_4   | Topic_5   | Topic_6   | Topic_7   | Topic_8   | Topic_9   | Topic_10  | Topic_11  | Topic_12  |
 |----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
@@ -178,7 +218,7 @@
 | pupil    | defamatory| authorise | justify   | accommodation| guard    | incidental lawful| passenger| -         | people    | institution | place residence | investment |
 
 
-## Removal of words that appear in more than 50% of documents (coherence 0.5740, diversity 0.983):
+#### Table 7: Stopwords and named entities removed. Additionally, words appearing in more than 50% of documents were removed. Topic quality is 0.5642:
 
 | Topic_0    | Topic_1      | Topic_2     | Topic_3    | Topic_4     | Topic_5     |
 |------------|--------------|-------------|------------|-------------|-------------|
@@ -214,37 +254,16 @@
 | poor       | identify     | private     | medicine   | political   | leave       |
 
 
-## No preprocessing (no stopword removal, no entity removal, no frequent word removal) (coherence 0.5227, diversity 0.8642):
 
-| Topic_0     | Topic_1         | Topic_2     | Topic_3       | Topic_4    | Topic_5       | Topic_6 | Topic_7 | Topic_8 | Topic_9 | Topic_10 | Topic_11 | Topic_12 | Topic_13 |
-|-------------|------------------|-------------|----------------|------------|----------------|---------|---------|---------|---------|----------|-----------|----------|-----------|
-| pte         | athlete          | she         | newspaper      | cia        | tax defaulter  | the     | gypsy   | ni      | russian | bond     | the       | andorran | the       |
-| styazhkov   | testing pool     | her         | statement      | detention  | dot            | of      | ebi     | zoran   | russia  | urozhay  | of        | testatrix| be        |
-| yef         | doping           | child       | medium         | detainee   | tax arrear     | be      | site    | nmppo   | religious| commodity bond | be  | canonical marriage | of |
-| sgt         | afld             | asylum      | publish        | poland     | interactive    | to      | belt    | nenad   | people  | fz       | and       | pla      | to        |
-| senior lt   | testing          | centre      | pkk            | flight     | click          | in      | lor     | simonovi| text    | rsfsr    | to        | pujol    | and       |
-| pudendal nerve | dope          | refugee     | publication    | airport    | evader         | and     | land    | aleksandar | genocide | buyout | have     | catalan  | in        |
-| entrenchment| slot             | russian     | journalist     | secret     | adzk           | that    | tebi    | minu     | religion| grain    | on        | francescxavi | on       |
-| crawl along | antidope         | first       | expression     | interrogation | map          | have    | netherlands | belilovi| ds      | consumer | that      | testatrixs | that     |
-| squadron    | whereabouts requirement | woman | diyarbakr  | romania    | budapest       | for     | aruba   | kosti    | extremist| internal debt | in     | codicil  | have      |
-| senior lieutenant | wadc      | alien       | defamation     | us         | online         | on      | emetic  | sran     | jewish  | malysh   | he        | serra    | prison    |
-| borzoy      | sporting         | moscow      | gven           | site       | excess         | or      | gbp     | lomigora| hate    | agricultural produce | his | puncernau| he        |
-| chechnyaingushetia | sport     | parent      | honour         | polish     | taxpayer       | as      | green   | vukain   | group   | amur     | by        | carolina | for       |
-| chlc        | whereabouts      | application | disseminate    | aircraft   | red            | by      | caravan | milo     | church  | agriculture | not    | areny    | his       |
-| rf          | wada             | family      | damage         | report     | large amount   | court   | accommodation | bajram | moscow  | finance  | at        | oller    | with      |
-| pressup     | whereabout       | immigration | region         | country    | forint huf     | not     | pgd     | badar    | armenian| nominal value | with | roser    | by        |
-| ryazan      | antidoping       | leave       | insult         | intelligence | authoritys    | it      | carson  | jovanovi | alshabaab| rur     | they      | immaculada | detention |
-| bartholin   | world antidope   | minor       | mass           | facility   | exceed huf     | with    | extra security | jonovi | extremist activity | total nominal | court | liberis | cell     |
-| administrativo| antidope organisation | return | nonpecuniary | united     | kiss           | which   | planning permission | ivljanin | ethnic | agricultural | as | decesserit | court    |
-| lisboa      | unannounced      | have        | gendarmerie    | transfer   |                | article | requisition | ivica | aim    | redemption | criminal | intestate | from     |
-| incontinent | outofcompetition | age         | reputation     | states     |                | an      | uprating | jurii   | call    | sell     | prosecutor | antoni | no        |
-| observatory | handball         | interview   | defamatory     | international|              | from    | local   | anti     | newspaper | coefficient | an   | filiation | medical   |
-| supremo     | antidope test    | mother      | impugn         | afghanistan|                | their   | planning| visor    | regulator| sergey  | police    | empara   | prisoner  |
-| armed conflict | sportsman     | expulsion   | pay            | black      |                | state   | curaao  | strugar  | author  | holder   | for       | settlor  | as        |
-| lyubertsy   | uptodate information | stay     | author         | investigation |             | this    | housing | dane     | federation| consumer price | from | filial   | not       |
-| prostatectomy | rugby          | turkish     | press          | redact     |                | person  | caravan site | gaji   | homosexual | consumer good | mr  | sser     | or        |
-| suicidal thought | onehour     | border      | editor         | hvd        |                | at      | antille | habimi   | extremism | retail price | officer | remainderman | an     |
-| predispose  | des              | removal     | eli            | guantnamo  |                | they    | lorss   | binaj    | caution | carei    | it        | diocletian | condition|
-| bataysk     | toplevel         | orphanage   | company        | abu        |                | law     | illegitimate | gluica | reader | production | police  | forosament| at        |
-|             | uci              | federation  | defendant      |            |                | right   | area    | oki      | chechen | nikolay  | police officer | codi | which    |
-|             | epo              |             |                |            |                | no      | keenan  | zdravkovi| army     | harvest  | investigation | maximianus | provide |
+#### Table 8: Effect of incremental text preprocessing steps on topic model quality: The results demonstrate that the removal of stopwords and named entities, combined with filtering out terms appearing in more than 30% of documents, yields the highest topic quality score. Excessive removal of frequent terms beyond this threshold does not further improve performance.
+
+| Preprocessing Type | Topic Quality |
+| --- | --- |
+| No preprocessing: stopwords, named entities, and frequent words are retained (no removal applied). | 0.4517 |
+| Stopword and named entities removed, but there was no removal of words that appear in more than a percentage of documents | 0.5163 |
+| Stopwords and named entities removed. Additionally, words appearing in more than 10% of documents were removed. | 0.5314 |
+| Stopwords and named entities removed. Additionally, words appearing in more than 20% of documents were removed. | 0.5731 |
+| **Stopwords and named entities removed. Additionally, words appearing in more than 30% of documents were removed.** | **0.6113** |
+| Stopwords and named entities removed. Additionally, words appearing in more than 40% of documents were removed. | 0.5164 |
+| Stopwords and named entities removed. Additionally, words appearing in more than 50% of documents were removed. | 0.5642 |
+
